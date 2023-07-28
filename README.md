@@ -1,5 +1,5 @@
 # MongoDB-TestData
-An algorithm that creates partial datasets based on user given parameters. The raw data size was 300ish GB including over 600 million records. Provided code generates 1 million records in roughly 10 minutes based on parameters. Allowing test data for other duplicate detection algorithms.
+An algorithm that efficiently generates partial datasets based on user given parameters to evaluate duplication detection algorithms. The raw data size was 300ish GB including over 600 million records. Provided code generates 1 million records in roughly 10 minutes based on parameters. Allowing test data for other duplicate detection algorithms.
 
 Due to the lack of approaches regarding test data generation for duplicate detection algorithm evaluation, this approach tries to address both the scability and the realisticness issues within the domain. For this example, North Carolina Voter Regisgration data was used, which is available here : https://www.ncsbe.gov/results-data/voter-registration-data
 
